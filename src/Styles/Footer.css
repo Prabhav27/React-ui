@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.footer{
+    width: 100%;
+    padding: 1rem;
+    background: url("../Assets/bgwall3.jpg");
+    font-family: "Poppins";
+}
+.footercontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footertext{
+    color: white;
+font-size: 1.2rem;
+}
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    margin: 1rem;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.social-media a:hover{
+    filter: invert(1);
+background-color: gray;
+transform: scale(1.4);
+}
+.uparrow .bx{
+height: 3rem;
+width: 3rem;
+background-color: white;
+color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+border-radius: 10%;
+}
+.uparrow .bx:hover{
+    filter: invert(1);
+    background-color: gray;
+    transform: scale(1.2);
+}
+
+span{
+    color:#f68084;
+}
+
+@media (max-width:1200px) {
+    .footertext{
+        color: white;
+    font-size: 1rem;
+    }
+    .social-media a{
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        font-size: 2rem;
+        margin: 1rem;
+        border-radius: 50%;
+    }
+    .uparrow .bx{
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 2rem;
+    border-radius: 10%;
+    }
+}
+
+
+@media (max-width:1000px) {
+    .footertext{
+        color: white;
+    font-size: 0.8rem;
+    }
+    .social-media a{
+        width: 2.4rem;
+        height: 2.4rem;
+        border-radius: 50%;
+        font-size: 2rem;
+        margin: 0.8rem;
+        border-radius: 50%;
+    }
+    .uparrow .bx{
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.8rem;
+    border-radius: 10%;
+    }
+    
+}
+
+
+
+
+@media (max-width:850px) {
+    .footertext{
+        color: white;
+    font-size: 0.8rem;
+    }
+    .social-media a{
+        width: 2.2rem;
+        height: 2.2rem;
+        border-radius: 50%;
+        font-size: 1.8rem;
+        margin: 0.5rem;
+        border-radius: 50%;
+    }
+    .uparrow .bx{
+    height: 1.8rem;
+    width: 1.8rem;
+    font-size: 1.6rem;
+    border-radius: 10%;
+    }
+}
