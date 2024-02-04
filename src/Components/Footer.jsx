@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className='footer'>
         <div className="footercontent">
         <div className="footertext">
-    COPYRIGHT © 2023 <span >PRABHAV BAKLIWAL</span> | ALL RIGHTS RESERVED.
+    COPYRIGHT © 2024 <span >PRABHAV BAKLIWAL</span> | ALL RIGHTS RESERVED.
         </div>
         <div className="social-media">
             <a href="mailto:prabhavbakliwal27@gmail.com"><i className='bx bxl-gmail' ></i></a>
